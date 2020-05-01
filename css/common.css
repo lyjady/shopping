@@ -2,3 +2,134 @@
     width: 1200px;
     margin: 0 auto;
 }
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #F1F1F1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.color_red {
+    color: #C81623;
+}
+
+.shortcut > .w  li {
+    float: left;
+}
+
+.shortcut > .w > .fr > li:nth-child(even) {
+    margin: 9px 15px 0 15px;
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+}
+
+.shortcut > .w > .fr > .unfold::after {
+    margin-left: 10px;
+    content: '\e783';
+    font-family: 'iconfont';
+}
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 27px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url("../image/logo.png") no-repeat center;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #B1191A;
+}
+
+.search > label > input {
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search > label > button {
+    width: 80px;
+    height: 32px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #B1191A;
+}
+
+.hotkey {
+    position: absolute;
+    top: 68px;
+    left: 346px;
+}
+
+.hotkey > ul > li {
+    float: left;
+    margin: 0 10px;
+}
+
+.shopcar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+    right: 68px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    line-height: 34px;
+    background-color: #F7F7F7;
+}
+
+.shopcar::before {
+    content: '\e77f';
+    font-family: iconfont;
+    font-size: 16px;
+    color: #DA5555;
+    margin-right: 5px;
+}
+
+.shopcar::after {
+    content: '\e70c';
+    font-size: 16px;
+    font-family: iconfont;
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 104px;
+    height: 14px;
+    padding: 4px;
+    line-height: 6px;
+    background-color: #E60012;
+    border-radius: 7px 7px 7px 0;
+    color: #FFFFFF;
+}
