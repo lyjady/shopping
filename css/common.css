@@ -21,7 +21,7 @@
     color: #C81623;
 }
 
-.shortcut > .w  li {
+.shortcut > .w li {
     float: left;
 }
 
@@ -132,4 +132,71 @@
     background-color: #E60012;
     border-radius: 7px 7px 7px 0;
     color: #FFFFFF;
+}
+
+.nav {
+    height: 47px;
+    line-height: 45px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.dt {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #B1191A;
+}
+
+.dd {
+    height: 465px;
+    margin-top: 2px;
+    background-color: #C81623;
+}
+
+.dd li {
+    position: relative;
+    height: 31px;
+    padding-left: 10px;
+    margin-left: 1px;
+    line-height: 31px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.dd li::after {
+    content: '\e70c';
+    font-family: iconfont;
+    position: absolute;
+    right: 9px;
+}
+
+.dd li:hover {
+    background-color: #FFFFFF;
+    color: #C81623;
+}
+
+.navitems > ul > li {
+    float: left;
+    font-size: 16px;
+    color: #333333;
+}
+
+.navitems a {
+    display: inline-block;
+    padding: 0 23px;
+}
+
+.footer {
+    height: 417px;
+    padding-top: 30px;
+    background-color: #F5F5F5;
 }
