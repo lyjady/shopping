@@ -1,0 +1,81 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news_hd {
+    height: 33px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 33px;
+    border: 1px solid #E4E4E4;
+    border-bottom: 1px dotted #E4E4E4;
+}
+
+.newsflash > .news_hd > .more {
+    font-size: 12px;
+}
+
+.newsflash > .news_hd > .more::after {
+    content: '\e70c';
+    font-family: iconfont;
+    margin-left: 5px;
+}
+
+.news_bd {
+    padding: 10px 0 8px 13px;
+    border: 1px solid #E4E4E4;
+    border-top: 0;
+    line-height: 22px;
+}
+
+.life_service {
+    height: 213px;
+    border: 1px solid #E4E4E4;
+    border-top: 0;
+    overflow: hidden;
+}
+.life_service > ul {
+    width: 252px;
+}
+
+.life_service > ul > li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border: 1px solid #E4E4E4;
+    border-top: 0;
+    border-left: 0;
+    text-align: center;
+}
+
+.life_service > ul > li > i {
+    display: inline-block;
+    width: 19px;
+    height: 24px;
+    margin-top: 13px;
+    background: url("../image/icons.png") -19px -16px no-repeat;
+}
+
+.life_service > ul > li > a {
+    display: block;
+    cursor: pointer;
+}
+
+.bargain {
+    width: 250px;
+    height: 75px;
+    margin-top: 5px;
+}
