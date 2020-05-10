@@ -1,280 +1,280 @@
 .w {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .shortcut {
-    height: 31px;
-    line-height: 31px;
-    background-color: #F1F1F1;
+  height: 31px;
+  line-height: 31px;
+  background-color: #F1F1F1;
 }
 
 .fl {
-    float: left;
+  float: left;
 }
 
 .fr {
-    float: right;
+  float: right;
 }
 
 .color_red {
-    color: #C81623;
+  color: #C81623;
 }
 
 .shortcut > .w li {
-    float: left;
+  float: left;
 }
 
 .shortcut > .w > .fr > li:nth-child(even) {
-    margin: 9px 15px 0 15px;
-    width: 1px;
-    height: 12px;
-    background-color: #666666;
+  margin: 9px 15px 0 15px;
+  width: 1px;
+  height: 12px;
+  background-color: #666666;
 }
 
 .shortcut > .w > .fr > .unfold::after {
-    margin-left: 10px;
-    content: '\e783';
-    font-family: 'iconfont';
+  margin-left: 10px;
+  content: '\e783';
+  font-family: 'iconfont';
 }
 
 .header {
-    position: relative;
-    height: 105px;
+  position: relative;
+  height: 105px;
 }
 
 .logo {
-    position: absolute;
-    top: 27px;
-    width: 171px;
-    height: 61px;
+  position: absolute;
+  top: 27px;
+  width: 171px;
+  height: 61px;
 }
 
 .logo a {
-    display: block;
-    width: 171px;
-    height: 61px;
-    font-size: 0;
-    background: url("../image/logo.png") no-repeat center;
+  display: block;
+  width: 171px;
+  height: 61px;
+  font-size: 0;
+  background: url("../image/logo.png") no-repeat center;
 }
 
 .search {
-    position: absolute;
-    top: 25px;
-    left: 346px;
-    width: 538px;
-    height: 36px;
-    border: 2px solid #B1191A;
+  position: absolute;
+  top: 25px;
+  left: 346px;
+  width: 538px;
+  height: 36px;
+  border: 2px solid #B1191A;
 }
 
 .search > label > input {
-    width: 454px;
-    height: 32px;
-    padding-left: 10px;
+  width: 454px;
+  height: 32px;
+  padding-left: 10px;
 }
 
 .search > label > button {
-    width: 80px;
-    height: 32px;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #B1191A;
+  width: 80px;
+  height: 32px;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #B1191A;
 }
 
 .hotkey {
-    position: absolute;
-    top: 68px;
-    left: 346px;
+  position: absolute;
+  top: 68px;
+  left: 346px;
 }
 
 .hotkey > ul > li {
-    float: left;
-    margin: 0 10px;
+  float: left;
+  margin: 0 10px;
 }
 
 .shopcar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 25px;
-    right: 68px;
-    width: 140px;
-    height: 36px;
-    border: 1px solid #DFDFDF;
-    text-align: center;
-    line-height: 34px;
-    background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  right: 68px;
+  width: 140px;
+  height: 36px;
+  border: 1px solid #DFDFDF;
+  text-align: center;
+  line-height: 34px;
+  background-color: #F7F7F7;
 }
 
 .shopcar::before {
-    content: '\e77f';
-    font-family: iconfont;
-    font-size: 16px;
-    color: #DA5555;
-    margin-right: 5px;
+  content: '\e77f';
+  font-family: iconfont;
+  font-size: 16px;
+  color: #DA5555;
+  margin-right: 5px;
 }
 
 .shopcar::after {
-    content: '\e70c';
-    font-size: 16px;
-    font-family: iconfont;
-    margin-left: 10px;
+  content: '\e70c';
+  font-size: 16px;
+  font-family: iconfont;
+  margin-left: 10px;
 }
 
 .count {
-    position: absolute;
-    top: -5px;
-    left: 104px;
-    height: 14px;
-    padding: 4px;
-    line-height: 6px;
-    background-color: #E60012;
-    border-radius: 7px 7px 7px 0;
-    color: #FFFFFF;
+  position: absolute;
+  top: -5px;
+  left: 104px;
+  height: 14px;
+  padding: 4px;
+  line-height: 6px;
+  background-color: #E60012;
+  border-radius: 7px 7px 7px 0;
+  color: #FFFFFF;
 }
 
 .nav {
-    height: 47px;
-    line-height: 45px;
-    border-bottom: 2px solid #B1191A;
+  height: 47px;
+  line-height: 45px;
+  border-bottom: 2px solid #B1191A;
 }
 
 .dropdown {
-    width: 209px;
-    height: 45px;
-    margin-right: 15px;
+  width: 209px;
+  height: 45px;
+  margin-right: 15px;
 }
 
 .dt {
-    width: 100%;
-    height: 100%;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #B1191A;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #B1191A;
 }
 
 .dd {
-    height: 465px;
-    margin-top: 2px;
-    background-color: #C81623;
+  height: 465px;
+  margin-top: 2px;
+  background-color: #C81623;
 }
 
 .dd li {
-    position: relative;
-    height: 31px;
-    padding-left: 10px;
-    margin-left: 1px;
-    line-height: 31px;
-    cursor: pointer;
-    font-size: 14px;
-    color: #FFFFFF;
+  position: relative;
+  height: 31px;
+  padding-left: 10px;
+  margin-left: 1px;
+  line-height: 31px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #FFFFFF;
 }
 
 .dd li::after {
-    content: '\e70c';
-    font-family: iconfont;
-    position: absolute;
-    right: 9px;
+  content: '\e70c';
+  font-family: iconfont;
+  position: absolute;
+  right: 9px;
 }
 
 .dd li:hover {
-    background-color: #FFFFFF;
-    color: #C81623;
+  background-color: #FFFFFF;
+  color: #C81623;
 }
 
 .navitems > ul > li {
-    float: left;
-    font-size: 16px;
-    color: #333333;
+  float: left;
+  font-size: 16px;
+  color: #333333;
 }
 
 .navitems a {
-    display: inline-block;
-    padding: 0 23px;
+  display: inline-block;
+  padding: 0 23px;
 }
 
 .footer {
-    height: 417px;
-    padding-top: 30px;
-    background-color: #F5F5F5;
+  height: 417px;
+  padding-top: 30px;
+  background-color: #F5F5F5;
 }
 
 .mod_service {
-    height: 80px;
-    border-bottom: 1px solid #EDEDED;
+  height: 80px;
+  border-bottom: 1px solid #EDEDED;
 }
 
 .mod_service > ul > li {
-    float: left;
-    width: 240px;
-    height: 80px;
+  float: left;
+  width: 240px;
+  height: 80px;
 }
 
 .mod_service > ul > li > h5 {
-    float: left;
-    width: 52px;
-    height: 52px;
-    margin-right: 5px;
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin-right: 5px;
 }
 
 .mod_service > ul > li > h4 {
-    margin-top: 5px;
-    font-size: 14px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .mod_service > ul > li:nth-child(1) > h5 {
-    background: url("../image/icons.png") -252px -2px no-repeat;
+  background: url("../image/icons.png") -252px -2px no-repeat;
 }
 
 .mod_service > ul > li:nth-child(2) > h5 {
-    background: url("../image/icons.png") -252px -52px no-repeat;
+  background: url("../image/icons.png") -252px -52px no-repeat;
 }
 
 .mod_service > ul > li:nth-child(3) > h5 {
-    background: url("../image/icons.png") -254px -104px no-repeat;
+  background: url("../image/icons.png") -254px -104px no-repeat;
 }
 
 .mod_service > ul > li:nth-child(4) > h5 {
-    background: url("../image/icons.png") -256px -156px no-repeat;
+  background: url("../image/icons.png") -256px -156px no-repeat;
 }
 
 .mod_service > ul > li:nth-child(5) > h5 {
-    background: url("../image/icons.png") -254px -208px no-repeat;
+  background: url("../image/icons.png") -254px -208px no-repeat;
 }
 
 .mod_help {
-    height: 180px;
-    padding-left: 46px;
-    border-bottom: 1px solid #EDEDED;
+  height: 180px;
+  padding-left: 46px;
+  border-bottom: 1px solid #EDEDED;
 }
 
 .mod_help > dl {
-    float: left;
-    width: 200px;
-    padding-top: 18px;
+  float: left;
+  width: 200px;
+  padding-top: 18px;
 }
 
 .mod_help > dl dt {
-    margin-bottom: 5px;
-    font-size: 16px;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .mod_help > dl:last-child {
-    width: 140px;
-    text-align: center;
+  width: 140px;
+  text-align: center;
 }
 
 .mod_copyright {
-    margin-top: 18px;
-    text-align: center;
+  margin-top: 18px;
+  text-align: center;
 }
 
 .mod_copyright > div > span {
-    margin: 0 7px;
+  margin: 0 7px;
 }
 
 .mod_copyright div:first-child {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
