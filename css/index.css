@@ -80,3 +80,214 @@
   height: 75px;
   margin-top: 5px;
 }
+
+.recom {
+  height: 163px;
+  margin-bottom: 30px;
+}
+
+.recom_hd {
+  width: 206px;
+  height: 163px;
+  text-align: center;
+  background-color: #5C5251;
+}
+
+.recom_hd > img {
+  margin-top: 31px;
+  margin-bottom: 7px;
+}
+
+.recom_hd > span {
+  display: block;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.recom_bd {
+  width: 994px;
+  height: 163px;
+  background-color: #EBEBEB;
+}
+
+.recom_bd > ul > li {
+  position: relative;
+  float: left;
+  width: 248px;
+  height: 163px;
+}
+
+.recom_bd > ul > li > img {
+  width: 248px;
+  height: 163px;
+}
+
+.recom_bd > ul > li:nth-child(-n + 3):after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 1px;
+  height: 143px;
+  background-color: #DDDDDD;
+}
+
+.like {
+  height: 262px;
+  margin-bottom: 29px;
+}
+
+.like_hd {
+  position: relative;
+  height: 29px;
+  margin-bottom: 10px;
+  line-height: 29px;
+}
+
+.like_hd > span:first-child {
+  font-size: 18px;
+  color: #333333;
+}
+
+.like_hd > span > a:last-child {
+  position: absolute;
+  right: 20px;
+}
+
+.like_hd:after {
+  content: '\e73b';
+  font-family: 'iconfont';
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.like_bd {
+  height: 233px;
+  border: 1px solid #EDEDED;
+}
+
+.like_bd > ul {
+  width: 1212px;
+  overflow: hidden;
+}
+
+.like_bd > ul > li {
+  float: left;
+  width: 202px;
+  height: 231px;
+}
+
+.like_bd > ul > li > div > img {
+  width: 160px;
+  height: 141px;
+}
+
+.db_img {
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.db_body {
+  height: 62px;
+  margin-left: 35px;
+}
+
+.like_bd > ul > li:nth-child(-n + 5) > .db_body {
+  border-right: 1px solid #EDEDED;
+}
+
+.price {
+  font-size: 18px;
+  color: #DF3033;
+  font-weight: 700;
+}
+
+.household_appliances {
+  height: 395px;
+  margin-bottom: 20px;
+}
+
+.ha_hd {
+  height: 35px;
+  border-bottom: 2px solid #C81623;
+  line-height: 35px;
+}
+
+.ha_hd > h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ha_hd > ul > li {
+  float: left;
+}
+
+.ha_hd > ul > li > a {
+  padding: 0 16px;
+}
+
+.ha_bd {
+  height: 360px;
+}
+
+.col_209 {
+  width: 209px;
+  height: 360px;
+  background-color: #F9F9F9;
+  text-align: center;
+}
+
+.col_209 > ul {
+  padding-left: 13px;
+}
+
+.col_209 > a > img {
+  margin-top: 26px;
+}
+
+.col_209 > ul > li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  margin-right: 12px;
+  border-bottom: 1px solid #EDEDED;
+  text-align: center;
+  line-height: 33px;
+}
+
+.col_329 {
+  width: 329px;
+}
+
+.col_220 {
+  width: 220px;
+  border-right: 1px solid #EDEDED;
+}
+
+.col_220 > a > img {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.col_219 {
+  width: 219px;
+}
+
+.col_219 > a:first-child > img {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.col_219 > a:last-child > img {
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.phone {
+  margin-bottom: 30px;
+}
