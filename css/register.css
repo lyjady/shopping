@@ -45,15 +45,106 @@
   margin: 50px auto 0;
 }
 
+.area_bd > ul > li {
+  margin-bottom: 20px;
+}
+
 .area_bd > ul > li > label {
   width: 88px;
   display: inline-block;
   text-align: left;
 }
 
-.area_bd > ul > li > input {
+.ipt {
   width: 242px;
   height: 37px;
   border: 1px solid #ccc;
   margin-right: 15px;
+  padding-left: 10px;
+}
+
+.error {
+  color: #FF0000;
+}
+
+.success_icon {
+  color: green;
+}
+
+.error_icon,
+.success_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: -4px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-image: url("../image/error.png");
+}
+
+.success_icon {
+  background-image: url("../image//success.png");
+}
+
+.weak,
+.middle,
+.strong {
+  padding: 0 12px;
+  color: white;
+}
+
+.weak {
+  background-color: #de1111;
+}
+
+.middle {
+  background-color: #40b83f;
+}
+
+.strong {
+  background-color: #f79100;
+}
+
+.area_bd > ul > li:nth-child(4) {
+  padding-left: 170px;
+}
+
+.area_bd > ul > li:nth-child(6) {
+  padding-left: 90px;
+}
+
+.area_bd > ul > li:nth-child(6) > input {
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.submit {
+  width: 242px;
+  margin-left: 90px;
+  height: 37px;
+  background-color: #c81623;
+  color: white;
+  line-height: 37px;
+  text-align: center;
+  border-radius: 19.5px;
+  cursor: pointer;
+}
+
+.footer {
+  height: 417px;
+  padding-top: 30px;
+  background-color: #F5F5F5;
+}
+
+.mod_copyright {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.mod_copyright > div > span {
+  margin: 0 7px;
+}
+
+.mod_copyright div:first-child {
+  margin-bottom: 14px;
 }
